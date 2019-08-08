@@ -1,0 +1,22 @@
+<svg width="1366" height="768" xmlns="http://www.w3.org/2000/svg">
+	<ellipse rx="48" ry="13" cx="1000" cy="455" fill="rgb(211, 211, 211)" />
+	<circle r="75" cx="1000" cy="384" fill="rgb(255, 215, 0)"/>
+	<circle r="30" cx="975" cy="360" fill="white"/>
+	<circle r="30" cx="1015" cy="360" fill="white"/>
+	<circle r="6" cx="965" cy="360"/>
+	<circle r="6" cx="1000" cy="360"/>
+	<ellipse rx="7" ry="13" cx="995" cy="420" fill="rgb(220, 20, 60)"/>
+
+	<ellipse rx="48" ry="13" cx="800" cy="455" fill="rgb(211, 211, 211)" />
+	<circle r="75" cx="800" cy="384" fill="rgb(255, 165, 0)"/>
+	<circle r="30" cx="825" cy="360" fill="white"/>
+	<circle r="30" cx="785" cy="360" fill="white"/>
+	<circle r="6" cx="805" cy="360"/>
+	<circle r="6" cx="840" cy="360"/>
+	<circle r="10" cx="808" cy="388"/>
+	<ellipse rx="13" ry="7" cx="795" cy="420" fill="rgb(220, 20, 60)"/>
+	<polygon points="750,300 780,320 745,345" stroke="rgb(255, 165, 0)" stroke-width="6"/>
+	<polygon points="850,300 855,335 815,315" stroke="rgb(255, 165, 0)" stroke-width="6"/>
+	<ellipse rx="60" ry="21" cx="650" cy="420" fill="rgb(255, 165, 0)" transform="rotate(25, 755, 490)"/>
+	<polygon points="640,355 665,355 645,375" fill="white"/>
+</svg>
