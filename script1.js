@@ -1,11 +1,6 @@
 var country;
 var capital;
-/*
-function inputData() {
-	country = prompt("Введите страну.");
-	capital = prompt("Введите столицу");
-	addСountry(country, capital);
-}*/
+
 function inputData() {
 	do {
 		do {
@@ -40,15 +35,12 @@ function inputData() {
 	} while (!capital)
 	addСountry(country, capital);
 }
+
 function getInfo() {
 	country = prompt("Введите страну для инфо");
 	alert(getcountryInfo(country));
 }
-/*
-function countriesall() {
-	console.log(listСountries());
-}
-*/
+
 function countriesall() {
 	if (!listСountries()){
 		console.log("В хэше нет стран!");
@@ -56,6 +48,7 @@ function countriesall() {
 		console.log(listСountries());
 	}
 }
+
 function deleteData() {
 	country = prompt("Какую страну удалить?");
 	if ( country in countries) {
