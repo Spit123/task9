@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>mood</title>
+</head>
+<body>
+	<script>
+
+	    "use strict";
+		var obj = {};
+	    function randomDiap(n,m) {
+	            return Math.floor(Math.random()*(m-n+1))+n;
+	    }
+	    function listColors (key) {
+	    	if (key in obj) {
+	    		alert("Это уже есть в хеше");
+	    		return 0;
+	    	} else {
+	    		return (obj[key]= key);
+	    	}
+
+	    }
+
+	    function mood(colorsCount) {
+	        var colors=[ '', 'красный', 'оранжевый', 'жёлтый', 'зелёный', 'голубой', 'синий', 'фиолетовый' ];
+	        obj = {};
+	        console.log( 'цветов: ' + colorsCount );
+
+	        for ( var i=1; i<=colorsCount; i++ ) {
+	            var n=randomDiap(1,7);
+	            var colorName=colors[n];
+	            if (!!listColors(colorName)) {
+	            	console.log( colorName );
+	            } else {
+	            	n=randomDiap(1,7);
+	            	colorName=colors[n];
+	            	console.log(colorName);
+	            }
+	        }
+	    }
+
+	    mood(3);
+
+	</script>
+</body>
+</html>
